@@ -1,0 +1,162 @@
+[
+  {
+    "nivel_modalidad": "Nivel Inicial",
+    "privado": 227995,
+    "estatal": 433672,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Nivel Inicial"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Primario",
+    "privado": 576422,
+    "estatal": 1154575,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Nivel Primario"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Secundario",
+    "privado": 495209,
+    "estatal": 959152,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Nivel Secundario"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Superior",
+    "privado": 51886,
+    "estatal": 146806,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Nivel Superior"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Artistica",
+    "privado": 470,
+    "estatal": 75280,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Educacion Artistica"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Especial",
+    "privado": 19583,
+    "estatal": 75013,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Educacion Especial"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Fisica",
+    "privado": 401,
+    "estatal": 152024,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Educacion Fisica"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Tecnico Profesional",
+    "privado": 26395,
+    "estatal": 262110,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Educacion Tecnico Profesional"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion de Jovenes y Adultos",
+    "privado": 18309,
+    "estatal": 377591,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Educacion de Jovenes y Adultos"]
+  },
+
+  {
+   
+    "nivel_modalidad": "Psicologia Comunitaria y Pedagogia Social",
+    "privado": 955,
+    "estatal": 28142,
+    "tipo": "Matricula",
+    "sort": ["Matricula", "Psicologia Comunitaria y Pedagogia Social"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Artistica",
+    "privado": 7,
+    "estatal": 276,
+    "tipo": "UE",
+    "sort": ["UE", "Educacion Artistica"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Especial",
+    "privado": 452,
+    "estatal": 1312,
+    "tipo": "UE",
+    "sort": ["UE", "Educacion Especial"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Fisica",
+    "privado": 1,
+    "estatal": 184,
+    "tipo": "UE",
+    "sort": ["UE", "Educacion Fisica"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion Tecnico Profesional",
+    "privado": 77,
+    "estatal": 469,
+    "tipo": "UE",
+    "sort": ["UE", "Educacion Tecnico Profesional"]
+  },
+  {
+   
+    "nivel_modalidad": "Educacion de Jovenes y Adultos",
+    "privado": 102,
+    "estatal": 1636,
+    "tipo": "UE",
+    "sort": ["UE", "Educacion de Jovenes y Adultos"]
+  },
+  {
+   
+    "nivel_modalidad": "Psicologia Comunitaria y Pedagogia Social",
+    "privado": 5,
+    "estatal": 179,
+    "tipo": "UE",
+    "sort": ["UE", "Psicologia Comunitaria y Pedagogia Social"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Inicial",
+    "privado": 1957,
+    "estatal": 3600,
+    "tipo": "UE",
+    "sort": ["UE", "Nivel Inicial"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Primario",
+    "privado": 1692,
+    "estatal": 4190,
+    "tipo": "UE",
+    "sort": ["UE", "Nivel Primario"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Secundario",
+    "privado": 1613,
+    "estatal": 2389,
+    "tipo": "UE",
+    "sort": ["UE", "Nivel Secundario"]
+  },
+  {
+   
+    "nivel_modalidad": "Nivel Superior",
+    "privado": 243,
+    "estatal": 196,
+    "tipo": "UE",
+    "sort": ["UE", "Nivel Superior"]
+  }
+]

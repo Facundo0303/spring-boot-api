@@ -1,0 +1,68 @@
+[
+  {
+    "statsKey": "Matricula",
+    "estatalMin": 28142.0,
+    "estatalMax": 2694205.0,
+    "estatalAvg": 523480.71428571426,
+    "estatalSum": 3664365.0,
+    "privadoMin": 401.0,
+    "privadoMax": 1351512.0,
+    "privadoAvg": 202517.85714285713,
+    "privadoSum": 1417625.0
+  },
+  {
+    "statsKey": "UE",
+    "estatalMin": 179.0,
+    "estatalMax": 4190.0,
+    "estatalAvg": 1443.1,
+    "estatalSum": 14431.0,
+    "privadoMin": 1.0,
+    "privadoMax": 1957.0,
+    "privadoAvg": 614.9,
+    "privadoSum": 6149.0
+  },
+  {
+    "statsKey": "Cargos Docentes",
+    "estatalMin": 406549.0,
+    "estatalMax": 406549.0,
+    "estatalAvg": 406549.0,
+    "estatalSum": 406549.0,
+    "privadoMin": 160459.0,
+    "privadoMax": 160459.0,
+    "privadoAvg": 160459.0,
+    "privadoSum": 160459.0
+  },
+  {
+    "statsKey": "Predios Educativos",
+    "estatalMin": 9591.0,
+    "estatalMax": 9591.0,
+    "estatalAvg": 9591.0,
+    "estatalSum": 9591.0,
+    "privadoMin": 3081.0,
+    "privadoMax": 3081.0,
+    "privadoAvg": 3081.0,
+    "privadoSum": 3081.0
+  },
+  {
+    "statsKey": "Mujeres",
+    "estatalMin": 2587971.0,
+    "estatalMax": 2587971.0,
+    "estatalAvg": 2587971.0,
+    "estatalSum": 2587971.0,
+    "privadoMin": null,
+    "privadoMax": null,
+    "privadoAvg": null,
+    "privadoSum": null
+  },
+  {
+    "statsKey": "Varones",
+    "estatalMin": 2494019.0,
+    "estatalMax": 2494019.0,
+    "estatalAvg": 2494019.0,
+    "estatalSum": 2494019.0,
+    "privadoMin": null,
+    "privadoMax": null,
+    "privadoAvg": null,
+    "privadoSum": null
+  }
+]
