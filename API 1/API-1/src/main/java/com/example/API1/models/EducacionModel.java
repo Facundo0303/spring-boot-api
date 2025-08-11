@@ -1,31 +1,66 @@
 package com.example.API1.models;
 
 import java.util.List;
+import jakarta.persistence.*;
 
+@Entity
+@Table(name = "educacion")
 public class EducacionModel {
-    private String nivel_modalidad;
-    private int privado;
-    private int estatal;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    @Column(name = "nivel_modalidad")
+    private String nivelModalidad;
+    
+    @Column(name = "privado")
+    private Integer privado;
+    
+    @Column(name = "estatal")
+    private Integer estatal;
+    
+    @Column(name = "tipo")
     private String tipo;
+    
+    @ElementCollection
+    @CollectionTable(name = "educacion_sort", joinColumns = @JoinColumn(name = "educacion_id"))
+    @Column(name = "sort_value")
     private List<String> sort;
 
-    // Getters y setters
-    public String getNivel_modalidad() {
-        return nivel_modalidad;
+    public EducacionModel() {}
+
+    
+    public EducacionModel(String nivelModalidad, Integer privado, Integer estatal, String tipo, List<String> sort) {
+        this.nivelModalidad = nivelModalidad;
+        this.privado = privado;
+        this.estatal = estatal;
+        this.tipo = tipo;
+        this.sort = sort;
     }
-    public void setNivel_modalidad(String nivel_modalidad) {
-        this.nivel_modalidad = nivel_modalidad;
+
+    public Long getId() {
+        return id;
     }
-    public int getPrivado() {
+    
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public String getNivelModalidad() {
+        return nivelModalidad;
+    }
+    public void setNivelModalidad(String nivelModalidad) {
+        this.nivelModalidad = nivelModalidad;
+    }
+    public Integer getPrivado() {
         return privado;
     }
-    public void setPrivado(int privado) {
+    public void setPrivado(Integer privado) {
         this.privado = privado;
     }
-    public int getEstatal() {
+    public Integer getEstatal() {
         return estatal;
     }
-    public void setEstatal(int estatal) {
+    public void setEstatal(Integer estatal) {
         this.estatal = estatal;
     }
     public String getTipo() {
