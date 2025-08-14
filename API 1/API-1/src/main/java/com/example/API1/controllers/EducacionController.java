@@ -7,12 +7,15 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.validation.annotation.Validated;
+import jakarta.validation.Valid;
 
 import com.example.API1.models.EducacionModel;
 import com.example.API1.services.EducacionService;
 
 @RestController
 @RequestMapping("/educacion")
+@Validated
 public class EducacionController {
 
     @Autowired
@@ -26,7 +29,7 @@ public class EducacionController {
 
     // POST - Crear nueva educación
     @PostMapping()
-    public EducacionModel guardarEducacion(@RequestBody EducacionModel educacion) {
+    public EducacionModel guardarEducacion(@Valid @RequestBody EducacionModel educacion) {
         return educacionService.guardarEducacion(educacion);
     }
 
@@ -45,7 +48,7 @@ public class EducacionController {
     @PutMapping("/{id}")
     public ResponseEntity<EducacionModel> actualizarEducacion(
             @PathVariable("id") Long id, 
-            @RequestBody EducacionModel educacion) {
+            @Valid @RequestBody EducacionModel educacion) {
         EducacionModel educacionActualizada = educacionService.actualizarEducacion(id, educacion);
         if (educacionActualizada != null) {
             return ResponseEntity.ok(educacionActualizada);
