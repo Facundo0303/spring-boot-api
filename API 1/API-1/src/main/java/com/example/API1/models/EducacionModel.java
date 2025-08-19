@@ -88,4 +88,5 @@ public class EducacionModel {
     public void setSort(List<String> sort) {
         this.sort = sort;
     }
+
 }
